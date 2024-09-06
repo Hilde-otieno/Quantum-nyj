@@ -1,0 +1,234 @@
+.podcast{
+display: flex;
+padding-top: 5%;
+height: 900px;
+width: 1800px;
+margin-top: 70px;
+background-color:hsl(216, 70%, 9%);
+
+}
+.pod img{
+    width: 1200px;
+    height: 850px;
+    margin-left: 10px;
+    margin-top: -28px;
+}
+.text{
+    color: aliceblue;
+    margin-right: 20%;
+    font-style: oblique;
+}
+.text h2{
+    font-size: 35px;
+
+}
+
+.text h3{
+    font-size: 20px;
+}
+button{
+    padding: 12px 35px;
+    border-radius: 20px;
+    border-color: aqua;
+    
+}
+.text{
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 200px
+
+}
+#unfiltered{
+    -webkit-text-fill-color:rgb(8, 8, 8);
+    width: 300px;
+    font-size: x-large;
+}
+#first{
+    -webkit-text-fill-color: white;
+    margin-left: -300px;
+
+}
+#follow{
+    -webkit-text-fill-color: white;
+}
+#episodes{
+    margin-left: 54px;
+    width: 500px;
+
+}
+.text-text{
+    width: 550px;
+    margin-left: 25px;
+    text-align: justify;
+}
+
+.podcasts{
+    display: flex;
+    /* gap: 15%; */
+    margin-right: 100px;
+    margin-top: -50px;
+}
+.love{
+    width: 400px;
+    height: 330px;
+    border-radius: 400px;
+    object-fit: cover;
+}
+.cast{
+  margin-left: 10px;
+  margin-top: -10px;
+}
+.cast1{
+  margin-right: -200px;
+  margin-top: -65px;
+}
+.cast2{
+    margin-left: 10px;
+    margin-top: -70px;
+}
+.emmy{
+    font-size: 45px;
+    background-color: white;
+    -webkit-text-fill-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+.gitu{
+    font-size: 45px;
+    background-color: white;
+    -webkit-text-fill-color: black;
+    width: 240px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 320px;
+    margin-top: 10px;
+}
+.eminem{
+    width: 800px;
+}
+.linux-video{
+    font-size: xxx-large;
+    text-align: center;
+    margin-top: 50px;
+    -webkit-text-fill-color: white;
+}
+
+.one-episode{
+    width: 400px;
+
+}
+@media (max-width:480px){
+    .podcast{
+        padding-top: 5%;
+        background-color: rgb(63, 63, 156);
+        display: block;
+        }
+        .pod img{
+            width: 80%;
+            margin-left: 10%;
+            border-radius: 20px;
+            margin-top: 2px;
+        }
+        .text{
+            color: aliceblue;
+            margin-left: 20%;
+            font-style: oblique;
+        }
+        
+        .text h2{
+            font-size: 20px;
+        
+        }
+        
+        .text h3{
+            font-size: 5px;
+        }
+        button{
+            padding: 12px 35px;
+            border-radius: 20px;
+            border-color: aqua;
+            
+        }
+        .text{
+            margin-top: 20px;
+        } 
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .podcast{
+        padding-top: 5%;
+        background-color: rgb(63, 63, 156);
+        display: block;
+        }
+        .pod img{
+            width: 80%;
+            margin-left: 10%;
+            border-radius: 20px;
+            margin-top: 2px;
+        }
+        .text{
+            color: aliceblue;
+            margin-left: 20%;
+            font-style: oblique;
+        }
+        
+        .text h2{
+            font-size: 20px;
+        
+        }
+        
+        .text h3{
+            font-size: 5px;
+        }
+        button{
+            padding: 12px 35px;
+            border-radius: 20px;
+            border-color: aqua;
+            
+        }
+        .text{
+            margin-top: 20px;
+        }  
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    podcast{
+        display: flex;
+        padding-top: 5%;
+        background-color: rgb(63, 63, 156);
+        }
+        .pod img{
+            width: 80%;
+            margin-left: 80px;
+            border-radius: 20px;
+            margin-top: -28px;
+        }
+        .text{
+            color: aliceblue;
+            margin-right: 20%;
+            font-style: oblique;
+        }
+        
+        .text h2{
+            font-size: 45px;
+        
+        }
+        
+        .text h3{
+            font-size: 20px;
+        }
+        button{
+            padding: 12px 35px;
+            border-radius: 20px;
+            border-color: aqua;
+            
+        }
+        .text{
+            margin-top: 20px;  
+}
+}
+

@@ -1,0 +1,297 @@
+.blog-container{
+    margin-top: 10%;
+    height: 1900px;
+    width: 1800px;
+    margin-left: 13px;
+    margin-top: -27px;
+    -webkit-text-fill-color:rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+
+}
+ .heading h1{
+    font-size: 220%;
+    text-align: center;
+    color: rgb(4, 4, 4);
+    -webkit-text-fill-color: black;
+    margin-top: 75px;
+
+
+}
+.trevorNoah{
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+}
+.sammary p{
+    width: 850px;
+    font-size: 20px;
+    margin-left: 25px;
+    text-align: justify;
+    font-style: oblique;
+    color: rgb(7, 7, 7);
+
+}
+.sammary{
+    display: block;
+    /* justify-content: center; */
+    gap: 7%;
+    /* margin-top: 5%; */
+    justify-content: center;
+    margin-top: 10px;
+    background-color:hsl(216, 70%, 9%);
+    width: 900px;
+    margin-left: 450px;
+    border-radius: 100px;
+    height: 580px;
+}
+.humor{
+    display: block;
+    /* display: flex; */
+    justify-content: center;
+    /* margin-top: 5%; */
+    gap: 7%;
+    margin-left: -100px;
+    -webkit-text-fill-color:rgb(248, 246, 244);
+    color: rgb(253, 253, 253);
+    width: 700px;
+    background-color:hsl(216, 70%, 9%) ;
+    border-radius: 100px;
+    margin-top: 10px;
+    height: 500px;
+    margin-left: 50px;
+
+
+}
+.heading{
+    color: black;
+}
+.hum{
+    -webkit-text-fill-color: black;
+    background-color: hsl(216, 70%, 9%);
+    width: 700px;
+}
+.diff{
+    display: block;
+    /* display: flex; */
+    justify-content: center;
+    /* margin-top: 5%; */
+    gap: 7%;
+    margin-left: -100px;
+    -webkit-text-fill-color:rgb(248, 246, 244);
+    color: rgb(253, 253, 253);
+    width: 700px;
+    background-color:hsl(216, 70%, 9%) ;
+    border-radius: 100px;
+    margin-top: 10px;
+    height: 500px;
+    margin-left: 270px;
+
+}
+.diff p{
+    width: 650px;
+    font-size: 20px;
+    -webkit-text-fill-color: rgb(252, 252, 252);
+    font-style: oblique;
+    border-radius: 100px;
+    text-align: justify;
+    margin-left: 25px;  
+}
+.last-part{
+    display: flex;
+}
+.openbook{
+    width: 300px;
+    height: 300px;
+
+    border-radius: 40%;
+    margin-top: 10px;
+
+
+
+  
+    
+}
+.humor p{
+    width: 650px;
+    font-size: 20px;
+    -webkit-text-fill-color: rgb(5, 5, 5);
+    font-style: oblique;
+    border-radius: 100px;
+    text-align: justify;
+    margin-left: 25px;
+}
+
+#local{
+    height: 100px;
+    font-size: 60px;
+    font-weight: bolder;
+    padding-bottom: 70px;
+}
+#rappers{
+    background-color: black;
+    height: 920px;
+    font-size: xx-large;
+    background-color:hsl(216, 70%, 9%);
+    margin-top: 50px;
+}
+.artist{
+    display: flex;
+    gap: 8%;
+}
+.artists{
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    object-fit: cover;
+}
+.eminem1{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.eminem2{
+  margin-right: 250px;
+  margin-top: -80px;
+}
+.eminem3{
+    margin-left: 400px;
+    margin-top: -415px;
+}
+.emmy{
+    font-size: 45px;
+    background-color: white;
+    -webkit-text-fill-color: black;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+.gitu{
+    font-size: 45px;
+    background-color: white;
+    -webkit-text-fill-color: black;
+    width: 240px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 320px;
+    margin-top: 10px;
+}
+@media (min-width: 250px) and (max-width: 750px){
+    h1{
+        font-size: 160%;
+        text-align: center;
+    
+    }
+    .trevorNoah{
+        height: 300px;
+        width: 300px;
+
+    }
+    .sammary p{
+        width: 200%;
+        font-size: 20px;
+        font-style: oblique;
+    
+     
+    }
+    .sammary{
+        flex-wrap: wrap;
+ 
+        /* justify-content: center; */
+        gap: 7%;
+        /* margin-top: 5%; */
+        justify-content: center;
+        /* margin-top: 10px; */
+    
+    }
+    .humor{
+        /* display: block; */
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        gap: 7%;
+        
+    
+    
+    }
+    .openbook{
+        width: 250px;
+        height: 250px;
+    
+        border-radius: 5%;
+        margin-top: -2%;
+    
+    
+    
+      
+        
+    }
+    .humor p{
+        width: 300%;
+        font-size: 20px;
+        font-style: oblique;
+    
+    
+    }
+
+}
+@media (min-width: 768px) and (max-width: 1020px){
+    h1{
+        font-size: 200%;
+        text-align: center;
+    
+    }
+    .trevorNoah{
+        height: 300px;
+        width: 300px;
+
+    }
+    .sammary p{
+        width: 200%;
+        font-size: 30px;
+        font-style: oblique;
+    
+     
+    }
+    .sammary{
+        flex-wrap: wrap;
+ 
+        /* justify-content: center; */
+        gap: 7%;
+        /* margin-top: 5%; */
+        justify-content: center;
+        /* margin-top: 10px; */
+    
+    }
+    .humor{
+        /* display: block; */
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 5%;
+        gap: 7%;
+        
+    
+    
+    }
+    .openbook{
+        width: 250px;
+        height: 250px;
+    
+        border-radius: 5%;
+        margin-top: -2%;
+    
+    
+    
+      
+        
+    }
+    .humor p{
+        width: 300%;
+        font-size: 30px;
+        font-style: oblique;
+    
+    
+    }
+
+}
+
