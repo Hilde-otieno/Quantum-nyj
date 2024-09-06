@@ -33,12 +33,25 @@ const Blogs = () =>{
                </div>
 
                <div className="diff">
-            <img src='images/whitebook.jpg' alt=" showing a book for trevor noah" className="openbook"/>
+            <img src='/images/Copyright.jpeg' alt=" showing a book for trevor noah" className="openbook"/>
             <p>
-                    Noah's experiences serve as a reminder of the difficulties many people have when trying to find steady work . Modern technology breakthroughs  and labour market changes bring with them new concerns , like the effect of automation on convintional professions and the requirment for ongoing skill development.
+            <a href='https://docs.google.com/presentation/d/1tfYiLP58ga2bsKOYTJA860MmdDaNHHtyyFTN6n5GlZw/edit#slide=id.g1450b2fcb6e_0_1961'>
+            Copyright and licensing manage the use of creative works. Copyright gives creators control over their work, while 
+                licensing allows others to use it under specific terms. Royalties are payments for using copyrighted material, and
+                 fair use permits limited, unlicensed use for certain purposes.
+                 </a>
                 </p>
 
                 </div>
+
+                {/* <div className="sammary">
+            <img src='images/book.webp' alt=" showing a book for trevor noah" className="trevorNoah"/>
+            <p>Copyright and licensing manage the use of creative works. Copyright gives creators control over their work, while 
+                licensing allows others to use it under specific terms. Royalties are payments for using copyrighted material, and
+                 fair use permits limited, unlicensed use for certain purposes.
+            </p>
+            
+        </div> */}
 
                 </div>
                 

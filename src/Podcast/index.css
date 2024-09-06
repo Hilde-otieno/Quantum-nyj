@@ -36,7 +36,7 @@ button{
     margin-top: 20px;
     width: 400px;
     font-size: 20px;
-    margin-left: 200px
+    margin-left: 140px
 
 }
 #unfiltered{
@@ -119,6 +119,18 @@ button{
 
 .one-episode{
     width: 400px;
+
+}
+.copyright{
+   width: 900px;
+   margin-top: 1000px;
+   display: flex;
+   margin-left: -1000px;
+}
+.copyright1{
+  width: 700px;
+}
+.copyright2{
 
 }
 @media (max-width:480px){

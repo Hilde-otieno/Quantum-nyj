@@ -55,7 +55,16 @@ const Cast = () => {
         </div>
         </div>
         
-       
+        {/* <a href='https://docs.google.com/presentation/d/1tfYiLP58ga2bsKOYTJA860MmdDaNHHtyyFTN6n5GlZw/edit#slide=id.g1450b2fcb6e_0_1961' id='local'>Digital Innovation Workshop
+        <div className="copyright">
+            <div className="copyright1">
+        <img src='/images/Copyright.jpeg' alt=" showing a book for trevor noah" className="love"/>
+        </div>
+        <div className="copyright2">
+        <img src='/images/Licensing.jpeg' alt=" showing a book for trevor noah" className="love"/>
+        </div>
+        </div>
+        </a> */}
 
 
 
